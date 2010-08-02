@@ -205,23 +205,26 @@ $$
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  \headerbox{---\sout{Expression Neutralization}}{name=results neutralization,column=1,row=0}{
+  \headerbox{Dirac Equation}{name=results neutralization,column=1,row=0}{
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  \begin{tabular}{@{}c@{ }c@{ }c@{ }c@{}@{ }@{ }c@{ }c@{ }c@{ }c@{ }}
-    \includegraphics[height=0.42\linewidth]{16_1_tgt}&
-    \includegraphics[height=0.42\linewidth]{16_1_expression}&
-    \includegraphics[height=0.42\linewidth]{16_1_neutral}\\[-0.8em]
-    \smaller a) Target & \smaller b) Fit & \smaller c) Normalized\\[0.8em]
-    \includegraphics[height=0.42\linewidth]{16_6_tgt}&
-    \includegraphics[height=0.42\linewidth]{16_6_expression}&
-    \includegraphics[height=0.42\linewidth]{16_6_neutral}\\[-0.8em]
-    \smaller a) Target & \smaller b) Fit & \smaller c) Normalized
-  \end{tabular}
-  Expression normalisation for two scans of the same individual.  
-  The robust fitting gives a good estimate (b) of the true face surface given
-  the noisy measurement (a). It fills in holes and removes artifacts using
-  prior knowledge from the face model. The pose and expression normalized faces
-  (c) are used for face recognition.
+Radial Dirac equations:
+$$
+-\hbar c \left({\d\over\d\rho} - {\kappa\over\rho}\right)Q + (V+mc^2-W)P=0
+$$
+
+$$
++\hbar c \left({\d\over\d\rho} + {\kappa\over\rho}\right)P + (V-mc^2-W)Q=0
+$$
+weak formulation:
+$$
+\int PVv_1 \d\rho + \int -\hbar c Q'v_1 + \hbar c{\kappa\over\rho}Qv_1 \d\rho =
+\epsilon \int Pv_1 \d\rho
+$$
+
+$$
+\int \hbar c P'v_2 + \hbar c{\kappa\over\rho}Pv_2 + \int (V -2mc^2)Qv_2 \d\rho =
+\epsilon \int Q v_2 \d\rho
+$$
   }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   \headerbox{---\sout{Robustness}}{name=robustness,column=1,below=results neutralization,span=1,above=bottom}{
