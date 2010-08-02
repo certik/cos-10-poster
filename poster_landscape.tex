@@ -11,6 +11,7 @@
 
 \usepackage{graphicx}
 \usepackage{multicol}
+\usepackage{ulem}
 
 \usepackage{pgfbaselayers}
 \pgfdeclarelayer{background}
@@ -159,43 +160,34 @@
       \tikz{\useasboundingbox (-0.2em,-0.32em) rectangle(0.2em,0.32em); \draw[draw=black,fill=baposterBGone!80!black!#1!white,line width=0.03em] (0,0) circle(0.18em);}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  \headerbox{Contribution}{name=contribution,column=0,row=0}{
+  \headerbox{Abstract}{name=contribution,column=0,row=0}{
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-   {}We introduce a method for expression invariant face recognition. A
-   generative 3D Morphable Model (3DMM) is used to separate identity and
-   expression components. The expression removal results in greatly increased
-   recognition performance, even on difficult datasets, without a decrease in
-   performance on expression-less datasets.
-
-   It is applicable to any kind of input data, and was evaluated here on
-   textureless range scans.
+   We compare several high-order methods for solving the radial Schr\"odinger
+   and Dirac equations, in particulal spectral finite element method, $p$-FEM,
+   $h$-FEM and $hp$-FEM. All methods provide robust way of calculating all
+   eigenstates with any precision. They differ in the rate of convergence and
+   whether a good initial mesh is needed or not, as well as providing robust
+   error control.
  }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  \headerbox{Model}{name=model,column=0,below=contribution}{
+  \headerbox{Motivation}{name=model,column=0,below=contribution}{
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    The Model was learnt from 175 subjects. We used one neutral expression scan
-    per identity and 50 expression scans of a subset of the subjects. 
-
-    The identity model is a linear model build from the neutral scans.
-    \begin{align}
-      \VEC f&=\VEC\mu + \MAT M_n\VEC\alpha_n\qquad.
-    \end{align}
-    For each of the 50 expression scans, we calculated an expression vector as
-    the difference between the expression scan and the corresponding neutral
-    scan of that subject.  This data is already mode-centered, if we regard the
-    neutral expression as the natural mode of expression data. From these offset
-    vectors an additional expression matrix $\MAT M_e$ was calculated, such that the complete linear Model is
-    \begin{align}
-      \VEC f&=\VEC\mu + \MAT M_n\VEC\alpha_n + \MAT M_e\VEC\alpha_e
-    \end{align}
-    The assumption here is, that the face and expression space are linearly
-    independent, such that each face is represented by a unique set of
-    coefficients.  
+The need for an efficient solution to the radial Dirac equation arises
+in the calculation of the equation of state and opacity of materials
+under extreme conditions.  These calculations often rely on
+self-consistent average-atom codes to compute the atomic structure for a
+representative atom in a plasma. For plasmas at low densities and high
+temperatures, a very large number of Rydberg states are accessible,
+often requiring the calculation of principal quantum numbers of 100 or
+higher.  This poses a challenge for the existing average-atom models,
+since they have difficultly in resolving all the bound states just below
+the continuum, and accurately computing the wave-function of
+high-principal-quantum-number states near the nucleus.
   }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  \headerbox{Fitting}{name=fitting,column=0,below=model}{
+  \headerbox{---\sout{Fitting}}{name=fitting,column=0,below=model}{
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     A Robust Nonrigid ICP method was used to fit the model to the data.
     Robustness was achieved by iteratively reweighting the correspondences and
@@ -206,14 +198,14 @@
   }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  \headerbox{Distance Measure}{name=measure,column=0,below=fitting,above=bottom}{
+  \headerbox{---\sout{Distance Measure}}{name=measure,column=0,below=fitting,above=bottom}{
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
    The Mahalanobis angle between the identity coefficients $\VEC{\alpha_{n}}$
    was used for classification.
   }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  \headerbox{Expression Neutralization}{name=results neutralization,column=1,row=0}{
+  \headerbox{---\sout{Expression Neutralization}}{name=results neutralization,column=1,row=0}{
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   \begin{tabular}{@{}c@{ }c@{ }c@{ }c@{}@{ }@{ }c@{ }c@{ }c@{ }c@{ }}
     \includegraphics[height=0.42\linewidth]{16_1_tgt}&
@@ -232,7 +224,7 @@
   (c) are used for face recognition.
   }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  \headerbox{Robustness}{name=robustness,column=1,below=results neutralization,span=1,above=bottom}{
+  \headerbox{---\sout{Robustness}}{name=robustness,column=1,below=results neutralization,span=1,above=bottom}{
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   \begin{tabular}{@{}c@{ }c@{ }c@{ }c@{}}
     \includegraphics[height=0.42\linewidth]{56_4_tgt}&
@@ -248,7 +240,7 @@
   holes.
   }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  \headerbox{Results}{name=results,column=2,span=2,row=0}{
+  \headerbox{---\sout{Results}}{name=results,column=2,span=2,row=0}{
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
       \begin{multicols}{2}
         The method was evaluated on the GavabDB expression dataset which
@@ -292,7 +284,7 @@
 \\
   }%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  \headerbox{Open Questions}{name=questions,column=2,span=1,above=bottom,below=results}{
+  \headerbox{---\sout{Open Questions}}{name=questions,column=2,span=1,above=bottom,below=results}{
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     While the expression and identity space are linearly independent, there is
     some expression left in the identity model. This is because a ``neutral''
@@ -301,13 +293,13 @@
     the data labelling, based on a measure of independence.
   }%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  \headerbox{Funding}{name=funding,column=3,span=1,above=bottom}{
+  \headerbox{---\sout{Funding}}{name=funding,column=3,span=1,above=bottom}{
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   \smaller 
   This work was supported in part by Microsoft Research through the European PhD Scholarship Programme.
   }%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  \headerbox{References}{name=references,column=3,above=funding,below=results}{
+  \headerbox{---\sout{References}}{name=references,column=3,above=funding,below=results}{
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     \smaller
     \vspace{-0.4em}
