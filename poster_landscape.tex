@@ -45,6 +45,9 @@
 \def\norm#1{\mathopen\| #1 \mathclose\|}% use instead of $\|x\|$
 \newcommand{\normLR}[1]{\left\| #1 \right\|}% use instead of $\|x\|$
 
+\def\half{{\textstyle{1\over2}}}
+\def\d{{\rm d}}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Multicol Settings
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -187,22 +190,19 @@ high-principal-quantum-number states near the nucleus.
   }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  \headerbox{---\sout{Fitting}}{name=fitting,column=0,below=model}{
+\headerbox{Schr\"odinger Equation}{name=fitting,column=0,below=model,above=bottom}{
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    A Robust Nonrigid ICP method was used to fit the model to the data.
-    Robustness was achieved by iteratively reweighting the correspondences and
-    using hard compatability test for the closest points.
-
-    Fitting was initialized by a simple nose detector and proceeded fully
-    automatic.
-  }
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  \headerbox{---\sout{Distance Measure}}{name=measure,column=0,below=fitting,above=bottom}{
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-   The Mahalanobis angle between the identity coefficients $\VEC{\alpha_{n}}$
-   was used for classification.
-  }
+Radial Schr\"odinger equation:
+$$(-\half \rho^2 R')' + (\rho^2 V + \half l(l+1)) R = \epsilon \rho^2 R$$
+weak formulation
+$$
+\int \half \rho^2 R'v' + (\rho^2 V + \half l(l+1)) Rv \d\rho
+        -\half[\rho^2R'v]_0^a =
+$$
+$$
+= \epsilon \int \rho^2 Rv \d\rho
+$$
+}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   \headerbox{---\sout{Expression Neutralization}}{name=results neutralization,column=1,row=0}{
