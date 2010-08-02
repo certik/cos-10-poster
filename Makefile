@@ -1,7 +1,7 @@
-BASENAME=poster
-#BASENAME=poster_landscape
+#BASENAME=poster
+BASENAME=poster_landscape
 
-$(BASENAME).pdf: $(BASENAME).tex 
+$(BASENAME).pdf: $(BASENAME).tex
 	pdflatex $(BASENAME)
 	pdflatex $(BASENAME)
 	pdflatex $(BASENAME)
