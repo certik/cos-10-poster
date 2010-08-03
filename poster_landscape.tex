@@ -213,7 +213,7 @@ promising for electronic structure calculations\cite{pask}.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 Radial Schr\"odinger equation:
 $$(-\half \rho^2 R')' + (\rho^2 V + \half l(l+1)) R = \epsilon \rho^2 R$$
-weak formulation
+Weak formulation
 $$
 \int \half \rho^2 R'v' + (\rho^2 V + \half l(l+1)) Rv \d\rho
         -\half[\rho^2R'v]_0^a =
@@ -221,6 +221,10 @@ $$
 $$
 = \epsilon \int \rho^2 Rv \d\rho
 $$
+This is a generalized eigenvalue problem. Note that $\rho^2 R'(\rho) = 0$ for
+$\rho=0$, so we set the whole boundary term $[\rho^2R'v]_0^a=0$, which allows
+us to impose any Neumann or Dirichlet boundary conditions on the right end of
+the domain.
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
