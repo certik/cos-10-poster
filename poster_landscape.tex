@@ -192,7 +192,20 @@ high-principal-quantum-number states near the nucleus.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \headerbox{hp-FEM}{name=hpfem,column=0,below=motivation,span=1,above=bottom}{
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-High polynomial adaptive finite element method\cite{solin}.
+High polynomial adaptive finite element method\cite{solin} has many favourable
+properties:
+\begin{itemize}
+\item exponential convergence (both smooth and singular solutions)
+\item automatic adaptivity
+\item any boundary conditions, any geometry
+\item error control
+\end{itemize}
+
+Plane waves (PW) are pseudospectral method, subset of spectral element method
+(uniform $p$-FEM), which is a subset of $p$-FEM, which is a subset of $hp$-FEM.
+
+Plane waves need periodic BC, simple geometry. Finite element method is
+promising for electronic structure calculations\cite{pask}.
   }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
