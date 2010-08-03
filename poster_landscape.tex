@@ -228,15 +228,10 @@ $\rho=0$, so we set the whole boundary term $[\rho^2R'v]_0^a=0$, which allows
 us to impose any Neumann or Dirichlet boundary conditions on the right end of
 the domain.
 
-The normalization (imposed automatically by the eigensolver due to $x^T B x =
-\one$):
-$$
-\int_0^\infty \rho^2 R^2\d\rho = 1
-$$
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  \headerbox{Dirac Equation}{name=dirac,column=1,below=schroed,row=0}{
+  \headerbox{Dirac Equation}{name=dirac,column=1,below=schroed,above=bottom,row=0}{
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 Radial Dirac equations:
 $$
@@ -262,10 +257,6 @@ $$
 =
 \epsilon \int Q v_2 \d\rho
 $$
-Normalization is:
-$$
-\int_0^\infty P^2 + Q^2\d\rho = 1
-$$
 Correspondence between the radial Schr\"odinger and Dirac equation is:
 $$
 \rho^2 R^2(\rho) = P^2(\rho) + Q^2(\rho)
@@ -286,8 +277,17 @@ p-FEM vs hp-FEM and uniform p-FEM vs p-FEM\\
     \includegraphics[height=0.25\textheight]{romanowski-vs-pfem}
   }%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  \headerbox{}{name=questions,column=2,span=1,above=bottom,below=silver}{
+\headerbox{Normalization}{name=questions,column=2,span=1,above=bottom,below=silver}{
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+The normalization of the radial Schr\"odinger equation is automatically imposed
+by the eigensolver due to $x^T B x = \one$:
+$$
+\int_0^\infty \rho^2 R^2\d\rho = 1
+$$
+For the radial Dirac equation the normalization is:
+$$
+\int_0^\infty P^2 + Q^2\d\rho = 1
+$$
   }%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   \headerbox{Acknowledgment}{name=funding,column=3,span=1,above=bottom}{
