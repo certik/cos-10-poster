@@ -174,7 +174,7 @@
  }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  \headerbox{Motivation}{name=model,column=0,below=contribution}{
+  \headerbox{Motivation}{name=motivation,column=0,below=contribution}{
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 The need for an efficient solution to the radial Dirac equation arises
 in the calculation of the equation of state and opacity of materials
@@ -190,7 +190,13 @@ high-principal-quantum-number states near the nucleus.
   }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\headerbox{Schr\"odinger Equation}{name=fitting,column=0,below=model,above=bottom}{
+\headerbox{hp-FEM}{name=hpfem,column=0,below=motivation,span=1,above=bottom}{
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+High polynomial adaptive finite element method\cite{solin}.
+  }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\headerbox{Schr\"odinger Equation}{name=schroed,column=1}{
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 Radial Schr\"odinger equation:
 $$(-\half \rho^2 R')' + (\rho^2 V + \half l(l+1)) R = \epsilon \rho^2 R$$
@@ -205,7 +211,7 @@ $$
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  \headerbox{Dirac Equation}{name=results neutralization,column=1,row=0}{
+  \headerbox{Dirac Equation}{name=dirac,column=1,below=schroed,row=0}{
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 Radial Dirac equations:
 $$
@@ -225,11 +231,6 @@ $$
 \int \hbar c P'v_2 + \hbar c{\kappa\over\rho}Pv_2 + \int (V -2mc^2)Qv_2 \d\rho =
 \epsilon \int Q v_2 \d\rho
 $$
-  }
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\headerbox{Romanowski vs p-FEM}{name=robustness,column=1,below=results neutralization,span=1,above=bottom}{
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    \includegraphics[height=0.25\textheight]{romanowski-vs-pfem}
   }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   \headerbox{Hydrogen Atom}{name=hydrogen,column=2,span=2,row=0}{
