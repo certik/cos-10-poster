@@ -26,7 +26,7 @@
 
 \selectcolormodel{cmyk}
 
-\graphicspath{{template_images/}}
+\graphicspath{{template_images/}{images/}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%% Some math symbols used in the text
@@ -227,67 +227,26 @@ $$
 $$
   }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  \headerbox{---\sout{Robustness}}{name=robustness,column=1,below=results neutralization,span=1,above=bottom}{
+\headerbox{Romanowski vs p-FEM}{name=robustness,column=1,below=results neutralization,span=1,above=bottom}{
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  \begin{tabular}{@{}c@{ }c@{ }c@{ }c@{}}
-    \includegraphics[height=0.42\linewidth]{56_4_tgt}&
-    \includegraphics[height=0.42\linewidth]{23_2_tgt}&
-    \includegraphics[height=0.42\linewidth]{5_6_tgt}\\[-0.8em]
-                       & \smaller a) Targets & \\[0.8em]
-    \includegraphics[height=0.42\linewidth]{56_4_expression}&
-    \includegraphics[height=0.42\linewidth]{23_2_expression}& 
-    \includegraphics[height=0.42\linewidth]{5_6_expression}\\[-0.8em]
-                    & \smaller b) Fits & 
-  \end{tabular}
-  The reconstruction (b) is robust against scans (a) with artifacts, noise, and
-  holes.
+    \includegraphics[height=0.25\textheight]{romanowski-vs-pfem}
   }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  \headerbox{---\sout{Results}}{name=results,column=2,span=2,row=0}{
+  \headerbox{Hydrogen Atom}{name=hydrogen,column=2,span=2,row=0}{
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-      \begin{multicols}{2}
-        The method was evaluated on the GavabDB expression dataset which
-        contains 427 Scans, with 3 neutral scans and 4 expression scans per ID.
-        To test the impact of expression invariance on neutral data we used the
-        UND Dataset from the Face Recognition Great Vendor Test, which contains
-        953 neutral scans with one to eight scans per subject.
-      \end{multicols}\vspace{-1em}
-      \mbox{\hspace{0.3\linewidth}\rule{0.4\linewidth}{1pt}\hspace{0.3\linewidth}}\\
-      \begin{tabular}{cc}
-        \hspace{0.5em}\scalebox{0.74}{\input{shrec_MNCG}} &
-        \hspace{0.5em}\scalebox{0.74}{\input{und_MNCG}}
-      \end{tabular}\\
-%      \begin{multicols}{2}
-        {Expression neutralization improves results on the expression dataset
-        without decreasing the accuracy on the neutral testset. Plotted is the
-        ratio of correct answers to  the number of possible correct answers.
-        %Note the different scales for the two graphs.
-        %Our approach has a high accuracy on the neutral (UND) dataset.
-        }
-%      \end{multicols}\vspace{-1em}
-      \\\mbox{\hspace{0.3\linewidth}\rule{0.4\linewidth}{1pt}\hspace{0.3\linewidth}}\\
-      \begin{tabular}{cc}
-        \hspace{0.5em}\scalebox{0.74}{\input{shrec_PR}} &
-        \hspace{0.5em}\scalebox{0.74}{\input{und_PR}}
-      \end{tabular}\\
-%      \begin{multicols}{2}
-        {Plotted are precision and recall for different retrieval depths. The lower
-        precision of the UND database is due to the fact that some queries have no
-        correct answers.}
-%      \end{multicols}\vspace{-1em}
-      \\\mbox{\hspace{0.3\linewidth}\rule{0.4\linewidth}{1pt}\hspace{0.3\linewidth}}\\
-      \begin{tabular}{cc}
-        \hspace{0.5em}\scalebox{0.74}{\input{shrec_FARFRR}} &
-        \hspace{0.5em}\scalebox{0.74}{\input{und_FARFRR}}
-      \end{tabular}\\
-%      \begin{multicols}{2}
-        {Impostor detection is reliable, as the minimum distance to a match
-        is smaller than the minimum distance to a nonmatch. }
-%      \end{multicols}
-\\
+p-FEM vs hp-FEM and uniform p-FEM vs p-FEM\\
+    \includegraphics[height=0.25\textheight]{romanowski-vs-pfem}
+    \includegraphics[height=0.25\textheight]{romanowski-vs-pfem}
   }%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  \headerbox{---\sout{Open Questions}}{name=questions,column=2,span=1,above=bottom,below=results}{
+  \headerbox{Silver Atom}{name=silver,column=2,span=2,below=hydrogen}{
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+p-FEM vs hp-FEM and uniform p-FEM vs p-FEM\\
+    \includegraphics[height=0.25\textheight]{romanowski-vs-pfem}
+    \includegraphics[height=0.25\textheight]{romanowski-vs-pfem}
+  }%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \headerbox{}{name=questions,column=2,span=1,above=bottom,below=silver}{
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     While the expression and identity space are linearly independent, there is
     some expression left in the identity model. This is because a ``neutral''
@@ -302,7 +261,7 @@ $$
   This work was supported in part by Microsoft Research through the European PhD Scholarship Programme.
   }%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  \headerbox{---\sout{References}}{name=references,column=3,above=funding,below=results}{
+  \headerbox{References}{name=references,column=3,above=funding,below=silver}{
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     \smaller
     \vspace{-0.4em}
@@ -311,12 +270,16 @@ $$
       \begin{thebibliography}{1}\itemsep=-0.01em
       \setlength{\baselineskip}{0.4em}
       \bibitem{amberg07:nonrigid}
-        B.~Amberg, S.~Romdhani, T. Vetter.
-        \newblock {O}ptimal {S}tep {N}onrigid {ICP} {A}lgorithms for {S}urface {R}egistration
+        Romanowski
+        \newblock h-adaptivity 
         \newblock In {\em CVPR 2007}
       \bibitem{amberg08:recognition}
-        B.~Amberg, R.~Knothe, T. Vetter.
-        \newblock Expression Invariant Face Recognition with a 3D Morphable Model
+        Solin
+        \newblock FEM book
+        \newblock In {\em AFGR 2008}
+      \bibitem{amberg08:recognition2}
+        Pask Sterne
+        \newblock FE in DFT
         \newblock In {\em AFGR 2008}
       \end{thebibliography}
   }%
