@@ -181,12 +181,16 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 The need for an efficient solution to the radial Dirac equation arises
 in the calculation of the equation of state and opacity of materials
-under extreme conditions.  These calculations often rely on
+under extreme conditions.
+
+These calculations often rely on
 self-consistent average-atom codes to compute the atomic structure for a
 representative atom in a plasma. For plasmas at low densities and high
 temperatures, a very large number of Rydberg states are accessible,
 often requiring the calculation of principal quantum numbers of 100 or
-higher.  This poses a challenge for the existing average-atom models,
+higher.
+
+This poses a challenge for the existing average-atom models,
 since they have difficultly in resolving all the bound states just below
 the continuum, and accurately computing the wave-function of
 high-principal-quantum-number states near the nucleus.
@@ -195,6 +199,7 @@ high-principal-quantum-number states near the nucleus.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \headerbox{Higher-Order FE Methods}{name=hpfem,column=0,below=motivation,span=1,above=bottom}{
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\small
 Finite element (FE) methods\cite{solin} partition the problem domain into
 subdomains called "elements", and represent the desired solution as a linear
 combination of piecewise polynomials defined within each element; wherein $h$
