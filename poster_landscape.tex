@@ -292,33 +292,19 @@ Comparison of uniform $p$-FEM (two different meshes), $p$-FEM and $hp$-FEM:\\
     \includegraphics[height=0.25\textheight]{silver_vec}
   }%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\headerbox{Conclusions}{name=questions,column=2,span=1,above=bottom,below=silver}{
+\headerbox{Conclusions}{name=conclusions,column=2,span=2,below=silver}{
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 $hp$-FEM is excellent if you don't know the mesh.
 In practice however there are two constrains of the $hp$-adaptivity algorithm:
-\begin{itemize}
-\item the result very strongly depends on the initial mesh
-\item it can only bisect
-\end{itemize}
+1) the result very strongly depends on the initial mesh 2) it can only bisect,
 which can lead to non-optimal meshes (needs further research).
 $p$-FEM is an improvement over uniform $p$-FEM as it must.
 $hp$-FEM seems to converge better from a uniform initial mesh.
   }%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  \headerbox{Acknowledgment}{name=funding,column=3,span=1,above=bottom}{
+\headerbox{References}{name=references,column=2,above=bottom,below=conclusions}{
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  \smaller
-Calculated using Hermes1D (hp-FEM group at UNR:
-\texttt{http://hpfem.org/}) and Sle1D
-(John Pask).
-
-   This work performed under the auspices of the U.S. Department of Energy by
-   Lawrence Livermore National Laboratory under Contract DE-AC52-07NA27344.
-  }%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  \headerbox{References}{name=references,column=3,above=funding,below=silver}{
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    \scriptsize
+    \tiny
     \vspace{-0.4em}
     \bibliographystyle{ieee}
     \renewcommand{\section}[2]{\vskip 0.05em}
@@ -340,6 +326,17 @@ Calculated using Hermes1D (hp-FEM group at UNR:
         \newblock {\em Modelling Simul. Mater. Sci. Eng. 13, R71
       (2005)}
       \end{thebibliography}
+  }%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \headerbox{Acknowledgment}{name=funding,column=3,span=1,above=bottom}{
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \smaller
+Calculated using Hermes1D (hp-FEM group at UNR:
+\texttt{http://hpfem.org/}) and Sle1D
+(John Pask).
+
+   This work performed under the auspices of the U.S. Department of Energy by
+   Lawrence Livermore National Laboratory under Contract DE-AC52-07NA27344.
   }%
 \end{poster}%
 %
