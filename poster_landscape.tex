@@ -240,7 +240,7 @@ solve for $R(0)$ directly (note that in general $R(0)\neq 0$).
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  \headerbox{Dirac Equation}{name=dirac,column=1,below=schroed,above=bottom,row=0}{
+  \headerbox{Dirac Equation}{name=dirac,column=1,below=schroed,row=0}{
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 Radial Dirac equations:
 $$
@@ -252,25 +252,17 @@ $$
 $$
 weak formulation:
 $$
-\int PVv_1 \d\rho + \int -\hbar c Q'v_1 + \hbar c{\kappa\over\rho}Qv_1 \d\rho =
-$$
-$$
-=
+\int PVv_1 \d\rho -\hbar c Q'v_1 + \hbar c{\kappa\over\rho}Qv_1 \d\rho =
 \epsilon \int Pv_1 \d\rho
 $$
-
 $$
-\int \hbar c P'v_2 + \hbar c{\kappa\over\rho}Pv_2 + \int (V -2mc^2)Qv_2 \d\rho =
-$$
-$$
-=
+\int \hbar c P'v_2 + \hbar c{\kappa\over\rho}Pv_2 + (V -2mc^2)Qv_2 \d\rho =
 \epsilon \int Q v_2 \d\rho
 $$
 Correspondence between the radial Schr\"odinger and Dirac equation is:
 $$
 \rho^2 R^2(\rho) = P^2(\rho) + Q^2(\rho)
 $$
-The normalization is $\int_0^\infty P^2 + Q^2\d\rho = 1$.
   }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   \headerbox{Hydrogen Atom (3 lowest states of Schr\"odinger equation for $Z=1$)}{name=hydrogen,column=2,span=2,row=0}{
@@ -294,6 +286,7 @@ Comparison of uniform-$p$-FEM (two different meshes), $p$-FEM and $hp$-FEM
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \headerbox{Conclusions}{name=conclusions,column=2,span=2,below=silver}{
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\smaller
 High-order adaptive FE methods provide a robust, variational alternative to
 conventional shooting methods, finding all desired states simultaneously, with
 accuracy and orthogonality approaching machine precision.
@@ -309,9 +302,10 @@ mesh --- further research is needed).
 Future: extend present Schroedinger formulations to Dirac equation and self-consistent calculations.
   }%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\headerbox{References}{name=references,column=2,above=bottom,below=conclusions}{
+\headerbox{References}{name=references,column=1,above=bottom,below=dirac}{
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     \tiny
+    %\smaller
     \vspace{-0.4em}
     \bibliographystyle{ieee}
     \renewcommand{\section}[2]{\vskip 0.05em}
@@ -335,7 +329,7 @@ Future: extend present Schroedinger formulations to Dirac equation and self-cons
       \end{thebibliography}
   }%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  \headerbox{Acknowledgment}{name=funding,column=3,span=1,above=bottom}{
+  \headerbox{Acknowledgment}{name=funding,column=2,span=2,above=bottom}{
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   \smaller
 Calculated using Hermes1D (hp-FEM group at UNR:
