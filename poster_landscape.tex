@@ -225,7 +225,12 @@ $$
 $$
 = \epsilon \int \rho^2 Rv \d\rho
 $$
-This is a generalized eigenvalue problem of the form $A x = \lambda B x$. Note that $\rho^2 R'(\rho) = 0$ for
+This is a generalized eigenvalue problem of the form $A x = \lambda B x$.
+The eigensolvers usually normalize eigenvectors as $x^T B x = \one$, which
+automatically imposes the normalization
+$\int_0^\infty \rho^2 R^2\d\rho = 1$.
+
+Note that $\rho^2 R'(\rho) = 0$ for
 $\rho=0$, so we set the whole boundary term $[\rho^2R'v]_0^a=0$, which allows
 us to impose any Neumann or Dirichlet boundary conditions on the right end of
 the domain.
@@ -263,6 +268,7 @@ Correspondence between the radial Schr\"odinger and Dirac equation is:
 $$
 \rho^2 R^2(\rho) = P^2(\rho) + Q^2(\rho)
 $$
+The normalization is $\int_0^\infty P^2 + Q^2\d\rho = 1$.
   }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   \headerbox{Hydrogen Atom (3 lowest states of Schr\"odinger equation for $Z=1$)}{name=hydrogen,column=2,span=2,row=0}{
@@ -281,17 +287,17 @@ Comparison of uniform $p$-FEM (two different meshes), $p$-FEM and $hp$-FEM:\\
     \includegraphics[height=0.25\textheight]{romanowski-vs-pfem}
   }%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\headerbox{Normalization}{name=questions,column=2,span=1,above=bottom,below=silver}{
+\headerbox{Conclusions}{name=questions,column=2,span=1,above=bottom,below=silver}{
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-The normalization of the radial Schr\"odinger equation is automatically imposed
-by the eigensolver due to $x^T B x = \one$:
-$$
-\int_0^\infty \rho^2 R^2\d\rho = 1
-$$
-For the radial Dirac equation the normalization is:
-$$
-\int_0^\infty P^2 + Q^2\d\rho = 1
-$$
+$hp$-FEM is excellent if you don't know the mesh.
+In practice however there are two constrains of the $hp$-adaptivity algorithm:
+\begin{itemize}
+\item the result very strongly depends on the initial mesh
+\item it can only bisect
+\end{itemize}
+which can lead to non-optimal meshes (needs further research).
+$p$-FEM is an improvement over uniform $p$-FEM as it must.
+$hp$-FEM seems to converge better from a uniform initial mesh.
   }%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   \headerbox{Acknowledgment}{name=funding,column=3,span=1,above=bottom}{
