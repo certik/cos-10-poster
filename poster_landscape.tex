@@ -230,16 +230,13 @@ $$
 $$
 = \epsilon \int \rho^2 Rv \d\rho
 $$
-This is a generalized eigenvalue problem of the form $A x = \lambda B x$.
-The eigensolvers usually normalize eigenvectors as $x^T B x = \one$, which
-automatically imposes the normalization
-$\int_0^\infty \rho^2 R^2\d\rho = 1$.
+Discretization in an FE basis produces a generalized eigenvalue problem
+of the form $A x = \lambda B x$.
 
-Note that $\rho^2 R'(\rho) = 0$ for
-$\rho=0$, so we set the whole boundary term $[\rho^2R'v]_0^a=0$, which allows
-us to impose any Neumann or Dirichlet boundary conditions on the right end of
-the domain.
-
+Setting boundary term $\half[\rho^2R'(\rho)v(\rho)]_0^a=0$ imposes $R'(a)=0$
+but no restriction on $R$ at $\rho=0$, due to vanishing of $\rho^2$. We impose
+$R(a)=0$ by restricting the FE basis and allow the natural BC at $\rho=0$: we
+solve for $R(0)$ directly (note that in general $R(0)\neq 0$).
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
