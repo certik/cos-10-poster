@@ -209,7 +209,7 @@ method for the solution of large-scale PDE problems, as in electronic
 structure\cite{pask}.
 
 %Plane waves (PW) are pseudospectral method, on the same level as spectral
-%element method (uniform $p$-FEM), which is a subset of $p$-FEM, which is a
+%element method (uniform-$p$-FEM), which is a subset of $p$-FEM, which is a
 %subset of $hp$-FEM.
 
 $hp$-FEM has many favorable properties: exponential convergence, automatic
@@ -275,7 +275,7 @@ The normalization is $\int_0^\infty P^2 + Q^2\d\rho = 1$.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   \headerbox{Hydrogen Atom (3 lowest states of Schr\"odinger equation for $Z=1$)}{name=hydrogen,column=2,span=2,row=0}{
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-Comparison of uniform $p$-FEM, $h$-FEM (Romanowski\cite{romanowski}),
+Comparison of uniform-$p$-FEM, $h$-FEM (Romanowski\cite{romanowski}),
 $p$-FEM (two different meshes) and $hp$-FEM:\\
     \includegraphics[height=0.25\textheight]{hydrogen_l_0}
     \includegraphics[height=0.25\textheight]{hydrogen_vec}\\
@@ -284,7 +284,7 @@ $p$-FEM (two different meshes) and $hp$-FEM:\\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   \headerbox{Silver Atom (50 lowest states of Schr\"odinger equation for $Z=47$)}{name=silver,column=2,span=2,below=hydrogen}{
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-Comparison of uniform $p$-FEM (two different meshes), $p$-FEM and $hp$-FEM:\\
+Comparison of uniform-$p$-FEM (two different meshes), $p$-FEM and $hp$-FEM:\\
     \includegraphics[height=0.25\textheight]{silver_l_0}
     \includegraphics[height=0.25\textheight]{silver_vec}
   }%
@@ -295,7 +295,7 @@ $hp$-FEM is excellent if you do not know the mesh.
 In practice however there are two constrains of the $hp$-adaptivity algorithm:
 1) the result very strongly depends on the initial mesh 2) it can only bisect,
 which can lead to non-optimal meshes (needs further research).
-$p$-FEM is an improvement over uniform $p$-FEM as it must.
+$p$-FEM is an improvement over uniform-$p$-FEM as it must.
 $hp$-FEM seems to converge better from a uniform initial mesh.
   }%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -329,8 +329,8 @@ $hp$-FEM seems to converge better from a uniform initial mesh.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   \smaller
 Calculated using Hermes1D (hp-FEM group at UNR:
-\texttt{http://hpfem.org/}) and Sle1D
-(John Pask).
+\texttt{http://hpfem.org/}) and sle1d
+(J.E. Pask, LLNL).
 
    This work performed under the auspices of the U.S. Department of Energy by
    Lawrence Livermore National Laboratory under Contract DE-AC52-07NA27344.
