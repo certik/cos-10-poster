@@ -291,12 +291,16 @@ Comparison of uniform-$p$-FEM (two different meshes), $p$-FEM and $hp$-FEM:\\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \headerbox{Conclusions}{name=conclusions,column=2,span=2,below=silver}{
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-$hp$-FEM is excellent if you do not know the mesh.
-In practice however there are two constrains of the $hp$-adaptivity algorithm:
-1) the result very strongly depends on the initial mesh 2) it can only bisect,
-which can lead to non-optimal meshes (needs further research).
-$p$-FEM is an improvement over uniform-$p$-FEM as it must.
-$hp$-FEM seems to converge better from a uniform initial mesh.
+High-order adaptive FE methods provide a robust, variational alternative to
+conventional shooting methods, finding all desired states simultaneously, with
+accuracy and orthogonality approaching machine precision.
+
+$hp$-FEM is the method of choice when little or no a priori information is
+available; however, in atomic-structure context, much is known --> other
+methods can be superior in practice (due to practical constraints on $hp$-FEM
+mesh --- further research is needed).
+
+Future: extend present Schroedinger formulations to Dirac equation and self-consistent calculations.
   }%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \headerbox{References}{name=references,column=2,above=bottom,below=conclusions}{
