@@ -265,43 +265,6 @@ $$
 $$
   }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  \headerbox{Hydrogen Atom (3 lowest states of Schr\"odinger equation for $Z=1$)}{name=hydrogen,column=2,span=2,row=0}{
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-Comparison of uniform-$p$-FEM, $h$-FEM (Romanowski\cite{romanowski}),
-$p$-FEM (two different meshes) and $hp$-FEM:\\
-    \includegraphics[height=0.25\textheight]{hydrogen_l_0}
-    \includegraphics[height=0.25\textheight]{hydrogen_vec}\\
-\smaller
-(L) starts from logarithmic initial mesh, (U) starts from uniform initial mesh.
-Domain is $[0, 100]$ (much bigger than shown in Figs).
-  }%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  \headerbox{Silver Atom (50 lowest states of Schr\"odinger equation for $Z=47$)}{name=silver,column=2,span=2,below=hydrogen}{
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-Comparison of uniform-$p$-FEM (two different meshes), $p$-FEM and $hp$-FEM
-(domain $[0, 150]$):\\
-    \includegraphics[height=0.25\textheight]{silver_l_0}
-    \includegraphics[height=0.25\textheight]{silver_vec}
-  }%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\headerbox{Conclusions}{name=conclusions,column=2,span=2,below=silver}{
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\smaller
-High-order adaptive FE methods provide a robust, variational alternative to
-conventional shooting methods, finding all desired states simultaneously, with
-accuracy and orthogonality approaching machine precision.
-
-High-order $p$-FEM and $hp$-FEM are superior to $h$-FEM in atomic structure
-context.
-
-$hp$-FEM is the method of choice when little or no a priori information is
-available; however, in atomic-structure context, much is known --> high-order
-$p$-FEM can be superior in practice (due to practical constraints on $hp$-FEM
-mesh --- further research is needed).
-
-Future: extend present Schroedinger formulations to Dirac equation and self-consistent calculations.
-  }%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \headerbox{References}{name=references,column=1,above=bottom,below=dirac}{
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     \tiny
@@ -329,7 +292,45 @@ Future: extend present Schroedinger formulations to Dirac equation and self-cons
       \end{thebibliography}
   }%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  \headerbox{Acknowledgment}{name=funding,column=2,span=2,above=bottom}{
+  \headerbox{Hydrogen Atom (3 lowest states of Schr\"odinger equation for $Z=1$)}{name=hydrogen,column=2,span=2,row=0}{
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Comparison of uniform-$p$-FEM, $h$-FEM (Romanowski\cite{romanowski}),
+$p$-FEM (two different meshes) and $hp$-FEM:\\
+    \includegraphics[height=0.25\textheight]{hydrogen_l_0}
+    \includegraphics[height=0.25\textheight]{hydrogen_vec}\\
+\smaller
+(L) starts from logarithmic initial mesh, (U) starts from uniform initial mesh.
+Domain is $[0, 100]$ (much bigger than shown in Figs).
+  }%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \headerbox{Silver Atom (50 lowest states of Schr\"odinger equation for $Z=47$)}{name=silver,column=2,span=2,below=hydrogen}{
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Comparison of uniform-$p$-FEM (two different meshes), $p$-FEM and $hp$-FEM
+(domain $[0, 150]$):\\
+    \includegraphics[height=0.25\textheight]{silver_l_0}
+    \includegraphics[height=0.25\textheight]{silver_vec}
+  }%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\headerbox{Conclusions}{name=conclusions,column=2,span=1,below=silver,above=bottom}{
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\smaller
+High-order adaptive FE methods provide a robust, variational alternative to
+conventional shooting methods, finding all desired states simultaneously, with
+accuracy and orthogonality approaching machine precision.
+
+High-order $p$-FEM and $hp$-FEM are superior to $h$-FEM in atomic structure
+context.
+
+$hp$-FEM is the method of choice when little or no a priori information is
+available; however, in atomic-structure context, much is known --> high-order
+$p$-FEM can be superior in practice (due to practical constraints on $hp$-FEM
+mesh --- further research is needed).
+
+Future: extend present Schroedinger formulations to Dirac equation and
+self-consistent calculations.
+  }%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \headerbox{Acknowledgment}{name=acknowledgment,column=3,span=1,above=bottom}{
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   \smaller
 Calculated using Hermes1D (hp-FEM group at UNR:
@@ -338,6 +339,11 @@ Calculated using Hermes1D (hp-FEM group at UNR:
 
    This work performed under the auspices of the U.S. Department of Energy by
    Lawrence Livermore National Laboratory under Contract DE-AC52-07NA27344.
+  }%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \headerbox{Meshes}{name=meshes,column=3,span=1,below=silver,above=acknowledgment}{
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \smaller
   }%
 \end{poster}%
 %
