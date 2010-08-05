@@ -18,7 +18,7 @@ for i in [0, 1, 2, 49]:
     n = i+1
     plot(x, y, lw=3, label="$R_{%d,%d}$" % (n, l))
 print "    Done."
-title("Eigenvectors (l=%d, Z=47)" % l)
+title("Eigenfunctions (l=%d, Z=47)" % l)
 legend()
 xlabel("$\\rho$ [a.u.]")
 ylabel("$R_{n,l}(\\rho)$")
