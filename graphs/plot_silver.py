@@ -30,11 +30,11 @@ print "Saving to silver_l_0.pdf"
 for i in range(n_eig):
     n = l+1+i
     do_plot(silver_uniformpfem50.R_x[l], silver_uniformpfem50.R_y[n, l],
-            n, l, "y", "uniform $p$-FEM, 50 elms (L)")
+            n, l, "y", "uniform-$p$-FEM, 50 elms (L)")
 for i in range(n_eig):
     n = l+1+i
     do_plot(silver_uniformpfem4.R_x[l], silver_uniformpfem4.R_y[n, l],
-            n, l, "k", "uniform $p$-FEM, 4 elms (L)")
+            n, l, "k", "uniform-$p$-FEM, 4 elms (L)")
 for i in range(n_eig):
     n = l+1+i
     do_plot(silver_pfem.R_x[l], silver_pfem.R_y[n, l],

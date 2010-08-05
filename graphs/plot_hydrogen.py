@@ -31,7 +31,7 @@ print "Saving to hydrogen_l_0.pdf"
 for i in range(n_eig):
     n = l+1+i
     do_plot(hydrogen_uniformpfem.R_x[l], hydrogen_uniformpfem.R_y[n, l],
-            n, l, "k", "uniform $p$-FEM (L)")
+            n, l, "k", "uniform-$p$-FEM (L)")
 for i in range(n_eig):
     n = l+1+i
     do_plot(hydrogen_romanowski.R_x[l], hydrogen_romanowski.R_y[n, l],
