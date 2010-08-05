@@ -180,8 +180,8 @@
   \headerbox{Motivation}{name=motivation,column=0,below=contribution}{
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 The need for an efficient solution to the radial Dirac equation arises
-in the calculation of the equation of state and opacity of materials
-under extreme conditions.
+in the calculation of the \textbf{equation of state and opacity of materials
+under extreme conditions}.
 
 These calculations often rely on
 self-consistent average-atom codes to compute the atomic structure for a
@@ -190,14 +190,14 @@ temperatures, a very large number of Rydberg states are accessible,
 often requiring the calculation of principal quantum numbers of 100 or
 higher.
 
-This poses a challenge for the existing average-atom models,
-since they have difficultly in resolving all the bound states just below
-the continuum, and accurately computing the wave-function of
+This poses a challenge for the existing average-atom models, since they have
+difficultly in \textbf{resolving all the bound states} just below the
+continuum, and accurately computing the wave-function of
 high-principal-quantum-number states near the nucleus.
   }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\headerbox{Higher-Order FE Methods}{name=hpfem,column=0,below=motivation,span=1,above=bottom}{
+\headerbox{High-Order FE Methods}{name=hpfem,column=0,below=motivation,span=1,above=bottom}{
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \small
 Finite element (FE) methods\cite{solin} partition the problem domain into
@@ -209,8 +209,8 @@ characterizes the element size and $p$, the polynomial order.
 \item $p$-FEM increases accuracy by increasing $p$
 \item $hp$-FEM increases accuracy by refining both $h$ and $p$ simultaneously
 \end{itemize}
-Basis is polynomial and strictly local $\to$ robust and naturally parallel
-method for the solution of large-scale PDE problems, as in electronic
+Polynomial and strictly local basis $\to$ robust and naturally parallel
+method for solution of large-scale PDE problems, as in electronic
 structure\cite{pask}.
 
 %Plane waves (PW) are pseudospectral method, on the same level as spectral
@@ -227,7 +227,7 @@ conditions, and systematic error control.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 Radial Schr\"odinger equation:
 $$(-\half \rho^2 R')' + (\rho^2 V + \half l(l+1)) R = \epsilon \rho^2 R$$
-Weak formulation
+Weak formulation:
 $$
 \int \half \rho^2 R'v' + (\rho^2 V + \half l(l+1)) Rv \d\rho
         -\half[\rho^2R'v]_0^a =
@@ -254,7 +254,7 @@ $$
 $$
 +\hbar c \left({\d\over\d\rho} + {\kappa\over\rho}\right)P + (V-mc^2-W)Q=0
 $$
-weak formulation:
+Weak formulation:
 $$
 \int PVv_1 \d\rho -\hbar c Q'v_1 + \hbar c{\kappa\over\rho}Qv_1 \d\rho =
 \epsilon \int Pv_1 \d\rho
@@ -304,7 +304,7 @@ $p$-FEM (two different meshes) and $hp$-FEM:\\
     \includegraphics[height=0.25\textheight]{hydrogen_vec}\\
 \smaller
 (L) starts from logarithmic initial mesh, (U) starts from uniform initial mesh.
-Domain is $[0, 100\rm\,a.u.]$ (bigger than shown in Figs).
+Computational domain is $[0, 100\rm\,a.u.]$.
   }%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   \headerbox{Silver Atom (50 lowest states of Schr\"odinger equation for $Z=47$)}{name=silver,column=2,span=2,below=hydrogen}{
