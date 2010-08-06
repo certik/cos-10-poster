@@ -345,17 +345,19 @@ Calculated using Hermes1D (hp-FEM group at UNR:
    Lawrence Livermore National Laboratory under Contract DE-AC52-07NA27344.
   }%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  \headerbox{Meshes for Error $< 10^{-8}\rm\,Ha$}{name=meshes,column=3,span=1,below=silver,above=acknowledgment}{
+  \headerbox{Meshes for Error $< 10^{-6}\rm\,Ha$}{name=meshes,column=3,span=1,below=silver,above=acknowledgment}{
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   \tiny
 \begin{multicols}{2}
 \begin{tabular}{|l|l|l|}
 \hline
 Method (Hydrogen) & $h$ [a.u.]    & $p$ \\ \hline
+% ok:
 $h$-FEM (U)       & 1.56 - 25     & 6    \\
+% need to get fixed:
 un-$p$-FEM (L)    & 3.22 - 64.34  & 9    \\
 $p$-FEM (L)       & 3.22 - 64.34  & 8-12 \\
-$p$-FEM (U)       & 25            & 2-18 \\
+$p$-FEM (U)       & 25            & 6-16 \\
 $hp$-FEM (U)      & 12.5 - 25     & 2-13 \\
 \hline
 \end{tabular}
