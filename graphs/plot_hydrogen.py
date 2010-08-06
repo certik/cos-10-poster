@@ -50,19 +50,20 @@ for i in range(n_eig):
     n = l+1+i
     do_plot(hydrogen_hpfem.R_x[l], hydrogen_hpfem.R_y[n, l],
             n, l, "r", "$hp$-FEM (U)")
-ax = gca()
+
+#ax = gca()
 #el = Ellipse((20, 3e-5), 5, 0.5e-4)
 #ax.add_patch(el)
-ax.annotate('hp/p-FEM', xy=(.35, .35),  xycoords='axes fraction',
-        xytext=(0.2, 0.2), textcoords="axes fraction",
-        arrowprops=dict(facecolor="black", shrink=0.05),
-                        horizontalalignment='right',
-                        verticalalignment='top')
-ax.annotate('h-FEM', xy=(.70, .45),  xycoords='axes fraction',
-        xytext=(0.95, 0.45), textcoords="axes fraction",
-        arrowprops=dict(facecolor="black", shrink=0.05),
-                        horizontalalignment='right',
-                        verticalalignment='top')
+#ax.annotate('hp/p-FEM', xy=(.35, .35),  xycoords='axes fraction',
+#        xytext=(0.2, 0.2), textcoords="axes fraction",
+#        arrowprops=dict(facecolor="black", shrink=0.05),
+#                        horizontalalignment='right',
+#                        verticalalignment='top')
+#ax.annotate('h-FEM', xy=(.70, .45),  xycoords='axes fraction',
+#        xytext=(0.95, 0.45), textcoords="axes fraction",
+#        arrowprops=dict(facecolor="black", shrink=0.05),
+#                        horizontalalignment='right',
+#                        verticalalignment='top')
 
 
 savefig("hydrogen_l_0.pdf")

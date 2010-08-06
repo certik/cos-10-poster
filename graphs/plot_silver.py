@@ -45,17 +45,17 @@ for i in range(n_eig):
             n, l, "r", "$hp$-FEM (L)")
 
 
-ax = gca()
-xytext = (0.95, 0.65)
-ax.annotate('', xy=(.27, .11),  xycoords='axes fraction',
-        xytext=(0.75, 0.60), textcoords="axes fraction",
-        arrowprops=dict(facecolor="black", shrink=0.05),
-                        horizontalalignment='right',
-                        verticalalignment='top')
-ax.annotate('mesh sensitivity of uniform-p-FEM',
-        xy=(.46, .56),  xycoords='axes fraction', xytext=xytext,
-        textcoords="axes fraction", arrowprops=dict(facecolor="black",
-            shrink=0.05), horizontalalignment='right', verticalalignment='top')
+#ax = gca()
+#xytext = (0.95, 0.65)
+#ax.annotate('', xy=(.27, .11),  xycoords='axes fraction',
+#        xytext=(0.75, 0.60), textcoords="axes fraction",
+#        arrowprops=dict(facecolor="black", shrink=0.05),
+#                        horizontalalignment='right',
+#                        verticalalignment='top')
+#ax.annotate('mesh sensitivity of uniform-p-FEM',
+#        xy=(.46, .56),  xycoords='axes fraction', xytext=xytext,
+#        textcoords="axes fraction", arrowprops=dict(facecolor="black",
+#            shrink=0.05), horizontalalignment='right', verticalalignment='top')
 
 savefig("silver_l_0.pdf")
 #show()
