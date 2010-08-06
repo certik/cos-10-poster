@@ -15,7 +15,7 @@
    width="720"
    height="540"
    xml:space="preserve"
-   sodipodi:docname="silver_l_0.pdf"><sodipodi:namedview
+   sodipodi:docname="silver_l_0.svg"><sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
      borderopacity="1"
@@ -30,14 +30,14 @@
      showgrid="false"
      inkscape:zoom="0.94316065"
      inkscape:cx="367.15426"
-     inkscape:cy="263.3032"
+     inkscape:cy="261.18267"
      inkscape:window-x="0"
      inkscape:window-y="25"
      inkscape:window-maximized="0"
      inkscape:current-layer="g12" /><metadata
      id="metadata8"><rdf:RDF><cc:Work
          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><defs
      id="defs6"><marker
        style="overflow:visible;"
        id="Arrow2Send"
@@ -2200,6 +2200,7 @@
      style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Bitstream Vera Sans;font-variant:normal;font-weight:normal;font-size:12;writing-mode:lr;-inkscape-font-specification:BitstreamVeraSans-Roman">50</tspan></text>
 
 
+
 <g
    id="g2036"><g
      clip-path="url(#clipPath2040)"
@@ -2220,6 +2221,7 @@
      y="0"
      x="0 7.632 15.264"
      style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Bitstream Vera Sans;font-variant:normal;font-weight:normal;font-size:12;writing-mode:lr;-inkscape-font-specification:BitstreamVeraSans-Roman">100</tspan></text>
+
 
 
 <g
@@ -2244,6 +2246,7 @@
      style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Bitstream Vera Sans;font-variant:normal;font-weight:normal;font-size:12;writing-mode:lr;-inkscape-font-specification:BitstreamVeraSans-Roman">150</tspan></text>
 
 
+
 <g
    id="g2072"><g
      clip-path="url(#clipPath2076)"
@@ -2264,6 +2267,7 @@
      y="0"
      x="0 7.632 15.264"
      style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Bitstream Vera Sans;font-variant:normal;font-weight:normal;font-size:12;writing-mode:lr;-inkscape-font-specification:BitstreamVeraSans-Roman">200</tspan></text>
+
 
 
 <g
@@ -2288,6 +2292,7 @@
      style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Bitstream Vera Sans;font-variant:normal;font-weight:normal;font-size:12;writing-mode:lr;-inkscape-font-specification:BitstreamVeraSans-Roman">250</tspan></text>
 
 
+
 <g
    id="g2108"><g
      clip-path="url(#clipPath2112)"
@@ -2308,6 +2313,7 @@
      y="0"
      x="0 7.632 15.264"
      style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Bitstream Vera Sans;font-variant:normal;font-weight:normal;font-size:12;writing-mode:lr;-inkscape-font-specification:BitstreamVeraSans-Roman">300</tspan></text>
+
 
 
 <g
@@ -2332,6 +2338,7 @@
      style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Bitstream Vera Sans;font-variant:normal;font-weight:normal;font-size:12;writing-mode:lr;-inkscape-font-specification:BitstreamVeraSans-Roman">350</tspan></text>
 
 
+
 <g
    id="g2144"><g
      clip-path="url(#clipPath2148)"
@@ -2352,6 +2359,7 @@
      y="0"
      x="0 7.632 15.264"
      style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Bitstream Vera Sans;font-variant:normal;font-weight:normal;font-size:12;writing-mode:lr;-inkscape-font-specification:BitstreamVeraSans-Roman">400</tspan></text>
+
 
 
 <g
@@ -2376,6 +2384,7 @@
      style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Bitstream Vera Sans;font-variant:normal;font-weight:normal;font-size:12;writing-mode:lr;-inkscape-font-specification:BitstreamVeraSans-Roman">450</tspan></text>
 
 
+
 <g
    id="g2180"><g
      clip-path="url(#clipPath2184)"
@@ -2398,6 +2407,7 @@
      style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Bitstream Vera Sans;font-variant:normal;font-weight:normal;font-size:12;writing-mode:lr;-inkscape-font-specification:BitstreamVeraSans-Roman">500</tspan></text>
 
 
+
 <text
    id="text2198"
    transform="matrix(1,0,0,-1,280.15312,16.215625)"><tspan
@@ -2406,6 +2416,7 @@
      y="0"
      x="0 9.24 18.684 25.584"
      style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Bitstream Vera Sans;font-variant:normal;font-weight:normal;font-size:12;writing-mode:lr;-inkscape-font-specification:BitstreamVeraSans-Roman">DOFs</tspan></text>
+
 
 
 <g
@@ -2432,6 +2443,7 @@
      style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Bitstream Vera Sans;font-variant:normal;font-weight:normal;font-size:12;writing-mode:lr;-inkscape-font-specification:BitstreamVeraSans-Roman">10</tspan></text>
 
 
+
 <text
    id="text2222"
    transform="matrix(1,0,0,-1,15.269531,7.765625)"><tspan
@@ -2440,6 +2452,7 @@
      y="0"
      x="0 3.03105469"
      style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Bitstream Vera Sans;font-variant:normal;font-weight:normal;font-size:8.4;writing-mode:lr;-inkscape-font-specification:BitstreamVeraSans-Roman">-8</tspan></text>
+
 
 
 </g><g
@@ -2466,6 +2479,7 @@
      style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Bitstream Vera Sans;font-variant:normal;font-weight:normal;font-size:12;writing-mode:lr;-inkscape-font-specification:BitstreamVeraSans-Roman">10</tspan></text>
 
 
+
 <text
    id="text2246"
    transform="matrix(1,0,0,-1,15.269531,7.875)"><tspan
@@ -2474,6 +2488,7 @@
      y="0"
      x="0 3.03105469"
      style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Bitstream Vera Sans;font-variant:normal;font-weight:normal;font-size:8.4;writing-mode:lr;-inkscape-font-specification:BitstreamVeraSans-Roman">-7</tspan></text>
+
 
 
 </g><g
@@ -2500,6 +2515,7 @@
      style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Bitstream Vera Sans;font-variant:normal;font-weight:normal;font-size:12;writing-mode:lr;-inkscape-font-specification:BitstreamVeraSans-Roman">10</tspan></text>
 
 
+
 <text
    id="text2270"
    transform="matrix(1,0,0,-1,15.269531,7.765625)"><tspan
@@ -2508,6 +2524,7 @@
      y="0"
      x="0 3.03105469"
      style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Bitstream Vera Sans;font-variant:normal;font-weight:normal;font-size:8.4;writing-mode:lr;-inkscape-font-specification:BitstreamVeraSans-Roman">-6</tspan></text>
+
 
 
 </g><g
@@ -2534,6 +2551,7 @@
      style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Bitstream Vera Sans;font-variant:normal;font-weight:normal;font-size:12;writing-mode:lr;-inkscape-font-specification:BitstreamVeraSans-Roman">10</tspan></text>
 
 
+
 <text
    id="text2294"
    transform="matrix(1,0,0,-1,15.269531,7.875)"><tspan
@@ -2542,6 +2560,7 @@
      y="0"
      x="0 3.03105469"
      style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Bitstream Vera Sans;font-variant:normal;font-weight:normal;font-size:8.4;writing-mode:lr;-inkscape-font-specification:BitstreamVeraSans-Roman">-5</tspan></text>
+
 
 
 </g><g
@@ -2568,6 +2587,7 @@
      style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Bitstream Vera Sans;font-variant:normal;font-weight:normal;font-size:12;writing-mode:lr;-inkscape-font-specification:BitstreamVeraSans-Roman">10</tspan></text>
 
 
+
 <text
    id="text2318"
    transform="matrix(1,0,0,-1,15.269531,7.875)"><tspan
@@ -2576,6 +2596,7 @@
      y="0"
      x="0 3.03105469"
      style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Bitstream Vera Sans;font-variant:normal;font-weight:normal;font-size:8.4;writing-mode:lr;-inkscape-font-specification:BitstreamVeraSans-Roman">-4</tspan></text>
+
 
 
 </g><g
@@ -2602,6 +2623,7 @@
      style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Bitstream Vera Sans;font-variant:normal;font-weight:normal;font-size:12;writing-mode:lr;-inkscape-font-specification:BitstreamVeraSans-Roman">10</tspan></text>
 
 
+
 <text
    id="text2342"
    transform="matrix(1,0,0,-1,15.269531,7.765625)"><tspan
@@ -2610,6 +2632,7 @@
      y="0"
      x="0 3.03105469"
      style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Bitstream Vera Sans;font-variant:normal;font-weight:normal;font-size:8.4;writing-mode:lr;-inkscape-font-specification:BitstreamVeraSans-Roman">-3</tspan></text>
+
 
 
 </g><g
@@ -2636,6 +2659,7 @@
      style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Bitstream Vera Sans;font-variant:normal;font-weight:normal;font-size:12;writing-mode:lr;-inkscape-font-specification:BitstreamVeraSans-Roman">10</tspan></text>
 
 
+
 <text
    id="text2366"
    transform="matrix(1,0,0,-1,15.269531,7.765625)"><tspan
@@ -2644,6 +2668,7 @@
      y="0"
      x="0 3.03105469"
      style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Bitstream Vera Sans;font-variant:normal;font-weight:normal;font-size:8.4;writing-mode:lr;-inkscape-font-specification:BitstreamVeraSans-Roman">-2</tspan></text>
+
 
 
 </g><g
@@ -2670,6 +2695,7 @@
      style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Bitstream Vera Sans;font-variant:normal;font-weight:normal;font-size:12;writing-mode:lr;-inkscape-font-specification:BitstreamVeraSans-Roman">10</tspan></text>
 
 
+
 <text
    id="text2390"
    transform="matrix(1,0,0,-1,15.269531,7.875)"><tspan
@@ -2678,6 +2704,7 @@
      y="0"
      x="0 3.03105469"
      style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Bitstream Vera Sans;font-variant:normal;font-weight:normal;font-size:8.4;writing-mode:lr;-inkscape-font-specification:BitstreamVeraSans-Roman">-1</tspan></text>
+
 
 
 </g><g
@@ -2704,6 +2731,7 @@
      style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Bitstream Vera Sans;font-variant:normal;font-weight:normal;font-size:12;writing-mode:lr;-inkscape-font-specification:BitstreamVeraSans-Roman">10</tspan></text>
 
 
+
 <text
    id="text2414"
    transform="matrix(1,0,0,-1,15.269531,7.765625)"><tspan
@@ -2711,6 +2739,7 @@
      y="0"
      x="0"
      style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Bitstream Vera Sans;font-variant:normal;font-weight:normal;font-size:8.4;writing-mode:lr;-inkscape-font-specification:BitstreamVeraSans-Roman">0</tspan></text>
+
 
 
 </g><g
@@ -2737,6 +2766,7 @@
      style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Bitstream Vera Sans;font-variant:normal;font-weight:normal;font-size:12;writing-mode:lr;-inkscape-font-specification:BitstreamVeraSans-Roman">10</tspan></text>
 
 
+
 <text
    id="text2438"
    transform="matrix(1,0,0,-1,15.269531,7.875)"><tspan
@@ -2744,6 +2774,7 @@
      y="0"
      x="0"
      style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Bitstream Vera Sans;font-variant:normal;font-weight:normal;font-size:8.4;writing-mode:lr;-inkscape-font-specification:BitstreamVeraSans-Roman">1</tspan></text>
+
 
 
 </g><g
@@ -2770,6 +2801,7 @@
      style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Bitstream Vera Sans;font-variant:normal;font-weight:normal;font-size:12;writing-mode:lr;-inkscape-font-specification:BitstreamVeraSans-Roman">10</tspan></text>
 
 
+
 <text
    id="text2462"
    transform="matrix(1,0,0,-1,15.269531,7.765625)"><tspan
@@ -2777,6 +2809,7 @@
      y="0"
      x="0"
      style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Bitstream Vera Sans;font-variant:normal;font-weight:normal;font-size:8.4;writing-mode:lr;-inkscape-font-specification:BitstreamVeraSans-Roman">2</tspan></text>
+
 
 
 </g><g
@@ -2803,6 +2836,7 @@
      style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Bitstream Vera Sans;font-variant:normal;font-weight:normal;font-size:12;writing-mode:lr;-inkscape-font-specification:BitstreamVeraSans-Roman">10</tspan></text>
 
 
+
 <text
    id="text2486"
    transform="matrix(1,0,0,-1,15.269531,7.765625)"><tspan
@@ -2810,6 +2844,7 @@
      y="0"
      x="0"
      style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Bitstream Vera Sans;font-variant:normal;font-weight:normal;font-size:8.4;writing-mode:lr;-inkscape-font-specification:BitstreamVeraSans-Roman">3</tspan></text>
+
 
 
 </g><path
@@ -3087,6 +3122,7 @@
      style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Cmmi10;font-variant:normal;font-weight:normal;font-size:12;writing-mode:lr;-inkscape-font-specification:Cmmi10">E</tspan></text>
 
 
+
 <text
    id="text2672"
    transform="matrix(1,0,0,-1,8.8535156,1.813875)"><tspan
@@ -3095,6 +3131,7 @@
      y="0"
      x="0 5.47558594"
      style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Cmr10;font-variant:normal;font-weight:normal;font-size:8.4;writing-mode:lr;-inkscape-font-specification:Cmr10">FE</tspan></text>
+
 
 
 <text
@@ -3106,6 +3143,7 @@
      style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Cmsy10;font-variant:normal;font-weight:normal;font-size:12;writing-mode:lr;-inkscape-font-specification:Cmsy10">−</tspan></text>
 
 
+
 <text
    id="text2680"
    transform="matrix(1,0,0,-1,29.364844,4.875)"><tspan
@@ -3113,6 +3151,7 @@
      y="0"
      x="0"
      style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Cmmi10;font-variant:normal;font-weight:normal;font-size:12;writing-mode:lr;-inkscape-font-specification:Cmmi10">E</tspan></text>
+
 
 
 <text
@@ -3125,6 +3164,7 @@
      style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Cmr10;font-variant:normal;font-weight:normal;font-size:8.4;writing-mode:lr;-inkscape-font-specification:Cmr10">exact</tspan></text>
 
 
+
 <text
    id="text2688"
    transform="matrix(1,0,0,-1,61.375781,4.875)"><tspan
@@ -3133,6 +3173,7 @@
      y="0"
      x="0 4.30664062 13.33007812 20.68359375"
      style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Bitstream Vera Sans;font-variant:normal;font-weight:normal;font-size:12;writing-mode:lr;-inkscape-font-specification:BitstreamVeraSans-Roman">[Ha]</tspan></text>
+
 
 
 </g><path
@@ -3157,6 +3198,7 @@
      style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Bitstream Vera Sans;font-variant:normal;font-weight:normal;font-size:14.4;writing-mode:lr;-inkscape-font-specification:BitstreamVeraSans-Roman">Eigenvalues (l=0, Z=47)</tspan></text>
 
 
+
 <path
    id="path2704"
    style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-opacity:1;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none"
@@ -3175,6 +3217,7 @@
      style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Bitstream Vera Sans;font-variant:normal;font-weight:normal;font-size:14.4;writing-mode:lr;-inkscape-font-specification:BitstreamVeraSans-Roman">uniform-</tspan></text>
 
 
+
 <text
    id="text2714"
    transform="matrix(1,0,0,-1,61.237411,3.359375)"><tspan
@@ -3182,6 +3225,7 @@
      y="0"
      x="0"
      style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Cmmi10;font-variant:normal;font-weight:normal;font-size:14.4;writing-mode:lr;-inkscape-font-specification:Cmmi10">p</tspan></text>
+
 
 
 <text
@@ -3192,6 +3236,7 @@
      y="0"
      x="0 5.19270325 13.47012329 22.56263733 34.97875977 39.55311584 44.12747192 53.28321838 62.43896484 67.01332092 75.8669281 79.86509705 93.88330078 101.38075256 105.95510864 111.56941223 119.58683777"
      style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Bitstream Vera Sans;font-variant:normal;font-weight:normal;font-size:14.4;writing-mode:lr;-inkscape-font-specification:BitstreamVeraSans-Roman">-FEM, 50 elms (L)</tspan></text>
+
 
 
 </g><path
@@ -3209,6 +3254,7 @@
      style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Bitstream Vera Sans;font-variant:normal;font-weight:normal;font-size:14.4;writing-mode:lr;-inkscape-font-specification:BitstreamVeraSans-Roman">uniform-</tspan></text>
 
 
+
 <text
    id="text2730"
    transform="matrix(1,0,0,-1,61.237411,3.359375)"><tspan
@@ -3216,6 +3262,7 @@
      y="0"
      x="0"
      style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Cmmi10;font-variant:normal;font-weight:normal;font-size:14.4;writing-mode:lr;-inkscape-font-specification:Cmmi10">p</tspan></text>
+
 
 
 <text
@@ -3226,6 +3273,7 @@
      y="0"
      x="0 5.19270325 13.47012329 22.56263733 34.97875977 39.55311584 44.12747192 53.28321838 57.85757446 66.71118164 70.70935059 84.72755432 92.2250061 96.79936218 102.41366577 110.43109131"
      style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Bitstream Vera Sans;font-variant:normal;font-weight:normal;font-size:14.4;writing-mode:lr;-inkscape-font-specification:BitstreamVeraSans-Roman">-FEM, 4 elms (L)</tspan></text>
+
 
 
 </g><path
@@ -3242,6 +3290,7 @@
      style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Cmmi10;font-variant:normal;font-weight:normal;font-size:14.4;writing-mode:lr;-inkscape-font-specification:Cmmi10">p</tspan></text>
 
 
+
 <text
    id="text2746"
    transform="matrix(1,0,0,-1,7.2374725,3.375)"><tspan
@@ -3250,6 +3299,7 @@
      y="0"
      x="0 5.19270325 13.47012329 22.56263733 34.97875977 39.55311584 45.16741943 53.18484497"
      style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Bitstream Vera Sans;font-variant:normal;font-weight:normal;font-size:14.4;writing-mode:lr;-inkscape-font-specification:BitstreamVeraSans-Roman">-FEM (L)</tspan></text>
+
 
 
 </g><path
@@ -3267,6 +3317,7 @@
      style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Cmmi10;font-variant:normal;font-weight:normal;font-size:14.4;writing-mode:lr;-inkscape-font-specification:Cmmi10">hp</tspan></text>
 
 
+
 <text
    id="text2758"
    transform="matrix(1,0,0,-1,15.528946,3.375)"><tspan
@@ -3277,7 +3328,15 @@
      style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Bitstream Vera Sans;font-variant:normal;font-weight:normal;font-size:14.4;writing-mode:lr;-inkscape-font-specification:BitstreamVeraSans-Roman">-FEM (L)</tspan></text>
 
 
-</g><text
+
+</g><rect
+   style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+   id="rect4198"
+   width="187.4548"
+   height="41.562378"
+   x="312.14194"
+   y="-279.06168"
+   transform="scale(1,-1)" /><text
    sodipodi:linespacing="100%"
    transform="scale(1,-1)"
    id="text5566"
@@ -3293,6 +3352,7 @@
      x="312.14194"
      id="tspan5574"
      sodipodi:role="line">of uniform p-FEM</tspan></text>
+
 
 
 <path
