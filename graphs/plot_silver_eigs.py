@@ -1,14 +1,16 @@
 from numpy import loadtxt
 from pylab import (plot, show, title, xlim, ylim, legend, xlabel, ylabel,
         savefig)
+from h5py import File
 
 print "Loading data..."
-A = loadtxt("u_silver.data")
-x = A[:, 0]
-n = A.shape[1]-1
+f = File("data.hdf5")
+x = f["/silver/x"]
+eigs = f["/silver/eigs"]
+n = eigs.shape[1]
 u = []
 for i in range(n):
-    u.append(A[:, i+1])
+    u.append(eigs[:, i])
 print "    Done."
 print "Plotting..."
 l = 0
