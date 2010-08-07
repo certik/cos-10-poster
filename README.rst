@@ -1,5 +1,5 @@
-My LLNL CCMS 09 Poster
-----------------------
+LLNL CCMS 10 Poster
+-------------------
 
 Compile it with::
 
@@ -8,3 +8,5 @@ Compile it with::
 View it with::
 
     evince poster_landscape.pdf
+
+More information at the web page http://certik.github.com/ccms-10-poster/.
